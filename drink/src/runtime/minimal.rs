@@ -76,6 +76,7 @@ mod construct_runtime {
         type MaxHolds = ConstU32<1>;
         type MaxFreezes = ();
         type RuntimeHoldReason = RuntimeHoldReason;
+        type RuntimeFreezeReason = RuntimeFreezeReason;
     }
 
     // ------------ Configure pallet timestamp -----------------------------------------------------
