@@ -979,7 +979,7 @@ checksum = "cd7e35aee659887cbfb97aaf227ac12cad1a9d7c71e55ff3376839ed4e282d08"
 [[package]]
 name = "contract-build"
 version = "4.0.0-alpha"
-source = "git+https://github.com/paritytech/cargo-contract?branch=at/riscv#a50d53e7b0b84debc868e68db1abc6d574d547d6"
+source = "git+https://github.com/paritytech/cargo-contract?branch=at/riscv#dd1572ee1c8b2b69bd449c6275f294c23c50ed6a"
 dependencies = [
  "anyhow",
  "blake2",
@@ -1033,7 +1033,7 @@ dependencies = [
 [[package]]
 name = "contract-metadata"
 version = "4.0.0-alpha"
-source = "git+https://github.com/paritytech/cargo-contract?branch=at/riscv#a50d53e7b0b84debc868e68db1abc6d574d547d6"
+source = "git+https://github.com/paritytech/cargo-contract?branch=at/riscv#dd1572ee1c8b2b69bd449c6275f294c23c50ed6a"
 dependencies = [
  "anyhow",
  "impl-serde",
