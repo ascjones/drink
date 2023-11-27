@@ -138,6 +138,7 @@ mod construct_runtime {
         type MaxDelegateDependencies = MaxDelegateDependencies;
         type RuntimeHoldReason = RuntimeHoldReason;
         type Environment = ();
+        type Xcm = ();
     }
 }
 
