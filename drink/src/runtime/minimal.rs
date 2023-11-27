@@ -142,6 +142,7 @@ mod construct_runtime {
         type MaxDelegateDependencies = MaxDelegateDependencies;
         type RuntimeHoldReason = RuntimeHoldReason;
         type Environment = ();
+        type Xcm = ();
     }
 
 // ------------ Implement `drink::Runtime` trait ---------------------------------------------------
