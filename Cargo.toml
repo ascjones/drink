@@ -43,16 +43,16 @@ wat = { version = "1.0.71" }
 # Substrate dependencies
 
 frame-metadata = { version = "16.0.0" }
-frame-support = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/support" }
-frame-system = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/system" }
-pallet-balances = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/balances" }
-pallet-contracts = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/contracts" }
-pallet-contracts-primitives = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/contracts/primitives" }
-pallet-timestamp = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/frame/timestamp" }
-sp-core = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/primitives/core" }
-sp-externalities = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/primitives/externalities" }
-sp-io = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/primitives/io" }
-sp-runtime-interface = { path = "/home/andrew/code/polkadot-sdk-riscv/substrate/primitives/runtime-interface" }
+frame-support = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "frame-support" }
+frame-system = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "frame-system" }
+pallet-balances = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "pallet-balances" }
+pallet-contracts = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "pallet-contracts" }
+pallet-contracts-primitives = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "pallet-contracts-primitives" }
+pallet-timestamp = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "pallet-timestamp" }
+sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "sp-core" }
+sp-externalities = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "sp-externalities" }
+sp-io = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "sp-io" }
+sp-runtime-interface = { git = "https://github.com/paritytech/polkadot-sdk", branch = "at/riscv", package = "sp-runtime-interface" }
 
 #frame-support = { version = "23.0.0" }
 #frame-system = { version = "23.0.0" }
