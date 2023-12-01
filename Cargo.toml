@@ -43,16 +43,16 @@ wat = { version = "1.0.71" }
 # Substrate dependencies
 
 frame-metadata = { version = "16.0.0" }
-frame-support = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "frame-support" }
-frame-system = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "frame-system" }
-pallet-balances = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "pallet-balances" }
-pallet-contracts = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "pallet-contracts" }
-pallet-contracts-primitives = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "pallet-contracts-primitives" }
-pallet-timestamp = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "pallet-timestamp" }
-sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "sp-core" }
-sp-externalities = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "sp-externalities" }
-sp-io = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "sp-io" }
-sp-runtime-interface = { git = "https://github.com/paritytech/polkadot-sdk", branch = "master", package = "sp-runtime-interface" }
+frame-support = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "frame-support" }
+frame-system = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "frame-system" }
+pallet-balances = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "pallet-balances" }
+pallet-contracts = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "pallet-contracts" }
+pallet-contracts-primitives = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "pallet-contracts-primitives" }
+pallet-timestamp = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "pallet-timestamp" }
+sp-core = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "sp-core" }
+sp-externalities = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "sp-externalities" }
+sp-io = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "sp-io" }
+sp-runtime-interface = { git = "https://github.com/paritytech/polkadot-sdk", rev = "180a6ad9b0e7f6225304b811f4accf1d13c5dd11", package = "sp-runtime-interface" }
 
 #frame-support = { version = "23.0.0" }
 #frame-system = { version = "23.0.0" }
