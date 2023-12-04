@@ -106,6 +106,7 @@ fn build_contract_crate(pkg: &Package) -> (String, PathBuf) {
                 output_type: OutputType::HumanReadable,
                 skip_wasm_validation: false,
                 target: Target::Wasm,
+                .. Default::default(),
             };
 
             let result = contract_build::execute(args).expect("Error building contract");
