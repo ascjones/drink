@@ -10,8 +10,7 @@ use std::{
 pub use contract_transcode;
 use contract_transcode::ContractMessageTranscoder;
 use frame_support::{traits::fungible::Inspect, weights::Weight};
-use pallet_contracts::Determinism;
-use pallet_contracts_primitives::{ContractExecResult, ContractInstantiateResult};
+use pallet_contracts::{ContractExecResult, ContractInstantiateResult, Determinism};
 use parity_scale_codec::Decode;
 
 use crate::{
