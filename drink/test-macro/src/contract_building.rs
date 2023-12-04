@@ -102,7 +102,7 @@ fn build_contract_crate(pkg: &Package) -> (String, PathBuf) {
                 unstable_flags: UnstableFlags::default(),
                 optimization_passes: Some(OptimizationPasses::default()),
                 keep_debug_symbols: false,
-                lint: false,
+                dylint: false,
                 output_type: OutputType::HumanReadable,
                 skip_wasm_validation: false,
                 target: Target::Wasm,
