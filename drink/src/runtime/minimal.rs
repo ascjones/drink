@@ -46,6 +46,7 @@ mod construct_runtime {
         type Block = $crate::frame_system::mocking::MockBlockU32<$name>;
         type RuntimeOrigin = RuntimeOrigin;
         type RuntimeCall = RuntimeCall;
+        type RuntimeTask = RuntimeTask;
         type Nonce = u64;
         type Hash = H256;
         type Hashing = BlakeTwo256;
