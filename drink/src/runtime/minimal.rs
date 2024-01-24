@@ -130,7 +130,7 @@ mod construct_runtime {
         type DepositPerByte = ConstU128<1>;
         type DepositPerItem = ConstU128<1>;
         type AddressGenerator = $crate::pallet_contracts::DefaultAddressGenerator;
-        type MaxCodeLen = ConstU32<{ 123 * 1024 }>;
+        type MaxCodeLen = ConstU32<{ 1024 * 1024 }>;
         type MaxStorageKeyLen = ConstU32<128>;
         type UnsafeUnstableInterface = ConstBool<false>;
         type MaxDebugBufferLen = ConstU32<{ 2 * 1024 * 1024 }>;
